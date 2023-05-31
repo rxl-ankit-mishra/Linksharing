@@ -3,7 +3,7 @@ package demo
 import grails.testing.services.ServiceUnitTest
 import spock.lang.Specification
 
-class UserSubscriptionAndUserCountServiceSpec extends Specification implements ServiceUnitTest<UserSubscriptionAndUserCountService>{
+class UserSubscriptionAndUserCountServiceSpec extends Specification implements ServiceUnitTest<UserSubscriptionAndTopicCountService>{
 
     def setup() {
     }

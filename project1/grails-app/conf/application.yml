@@ -8,6 +8,16 @@ grails:
             # Whether to translate GORM events into Reactor events
             # Disabled by default for performance reasons
             events: false
+    mail:
+        host: 'smtp.office365.com'
+        port: 587
+        username: 'bhau.singh@outlook.com'
+        password: 'Puneet@16'
+        props:
+            mail:
+                smtp:
+                    starttls:
+                        enable: true
 info:
     app:
         name: '@info.app.name@'
@@ -136,4 +146,4 @@ spring:
             path: /h2-console
 
 server:
-    port: 8085
+    port: 9005

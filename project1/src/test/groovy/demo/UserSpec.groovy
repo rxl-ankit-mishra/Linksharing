@@ -11,8 +11,13 @@ class UserSpec extends Specification implements DomainUnitTest<User> {
     def cleanup() {
     }
 
-    void "test something"() {
+    void "UserPasswordCheck"() {
         expect:"fix me"
             true == false
     }
+
+
+
+
+
 }

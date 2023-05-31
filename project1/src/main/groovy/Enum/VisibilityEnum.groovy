@@ -1,6 +1,6 @@
 package Enum
 
-enum VisibilityEnum {
-     PUBLIC("Public"),
-    PRIVATE("Private")
+public enum VisibilityEnum {
+     PUBLIC,
+    PRIVATE
 }

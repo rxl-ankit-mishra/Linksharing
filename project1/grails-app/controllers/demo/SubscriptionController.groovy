@@ -1,6 +1,7 @@
 package demo
 
 class SubscriptionController {
+    def index() {
 
-    def index() { }
+    }
 }

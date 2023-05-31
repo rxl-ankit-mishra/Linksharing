@@ -1,7 +1,5 @@
 package demo
-
 class Resource {
-
     Topic topic
     User createdBy
     String description
@@ -17,5 +15,6 @@ class Resource {
     }
 
     static constraints = {
+        description nullable:false ,blank:false
     }
 }
